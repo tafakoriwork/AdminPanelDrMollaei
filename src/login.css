@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+body {
+  height: 100vh !important;
+  display: grid !important;
+  place-items: center !important;
+  font-family: sans-serif !important;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1) !important;
+  color: rgb(225,225,255) !important;
+}
+
+.container {
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 3rem 5rem !important;
+  border-radius: 2em !important;
+  background-color: rgba(0,0,0,0.75) !important;
+  width: 30rem !important;
+}
+
+h1 {
+  text-align: center !important;
+  margin: 1rem !important;
+  margin-bottom: 5rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 2px !important;
+}
+
+label span{
+  display: inline-block !important;
+  font-size: 1.25rem !important;
+  letter-spacing: 2px !important;
+  position: relative !important;
+  bottom: 4rem !important;
+  transition: transform 200ms ease-in-out !important;
+}
+
+input {
+  position: relative !important;
+  margin-bottom: 2rem !important;
+  padding: 0.5rem 0 !important;
+  background-color: transparent !important;
+  outline: none !important;
+  border: unset !important;
+  border-bottom: 1.5px solid white !important;
+  font-size: 1.25rem !important;
+  letter-spacing: 1.5px !important;
+  color: white !important;
+  z-index: 1 !important;
+}
+
+button {
+  display: inline-block !important;
+  margin: 1rem 0 !important;
+  padding: 0.75rem !important;
+  cursor: pointer !important;
+  outline: none !important;
+  border: none !important;
+  border-radius: 0.25em !important;
+  font-size: 1rem !important;
+  letter-spacing: 1.5px !important;
+  font-weight: 500 !important;
+  transition: all 100ms ease-in-out !important;
+  background-color: rgb(225,225,255) !important;
+}
+
+button:hover {
+  background-color: rgb(235,235,235) !important;
+}
+
+a {
+  color: rgb(235, 235, 235) !important;
+}
+
+a:hover {
+  color: rgb(215, 215, 215) !important;
+}
+
+p {
+  text-align: center !important;
+}
+
+input:focus, input:valid {
+  border-bottom: 2px solid white !important;
+}
+
+input:focus + label span, input:valid + label span {
+  color: white !important;
+  transform: translateY(-2rem) !important;
+}
+
+.go2072408551 {
+  padding: 8px 10px !important;
+}
